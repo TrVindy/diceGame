@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(185, 200, 233);
+    margin: 0%;
+    height: fit-content;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #1155ca, #eae8ec);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+    text-align: center;
+    height: 35%;
+    
+  }
+h1{
+    font-family: 'Rouge Script', cursive;
+    font-size: 10rem;
+    font-weight: bold;
+    color:rgb(52, 6, 130);
+    margin: 0px;
+}
+h2{
+    font-family: 'Leckerli One', cursive;
+    font-size: 4 rem;
+    font-weight: bold;
+    color:rgb(238, 238, 245);
+    margin: 0px;
+    padding: 10px;
+
+}
+h3{
+    font-family: 'Rouge Script', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    color:rgb(52, 6, 130);
+    margin: 0px;
+    padding: 10px;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+  }
+
+button{
+    border-color: rgb(52, 6, 130);
+    padding: 10px;
+    margin: 25px;
+    width: 250px;
+    background-color: rgb(206, 217, 238);
+    border-radius: 15px;
+    border-width: 2rem;
+    font-family: 'Rouge Script', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(52, 6, 130);
+}
+img{
+    
+    height: 8rem;
+}
